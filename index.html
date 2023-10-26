@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Music Preferences Survey</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="music-container">
+    <div class="form-container">
+
+      <h2 class="form-title">Music Preferences Survey</h2>
+
+      <section class="section">
+        <h2>Personal Information</h2>
+
+        <label for="name">Name (optional)</label>
+        <input type="text" name="name" id="name">
+
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age">
+
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+          <option value="">Select</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </section>
+
+      <section class="section">
+        <h2>Music Preferences</h2>
+
+        <label for="genres">What genres of music do you listen to most often?</label>
+        <input type="text" name="genres" id="genres">
+
+        <label for="artists">What are your favorite bands or artists?</label>
+        <input type="text" name="artists" id="artists">
+
+        <label for="songs">What are your favorite songs?</label>
+        <input type="text" name="songs" id="songs">
+      </section>
+
+      <button class="submit-button" type="submit">Submit</button>
+
+    </div>
+  </div>
+
+</body>
+</html>

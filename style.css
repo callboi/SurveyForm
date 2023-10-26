@@ -1,0 +1,83 @@
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.section {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+/* Additional CSS */
+
+.section label {
+  font-weight: bold;
+}
+
+.section input,
+.section select {
+  box-sizing: border-box;
+}
+
+.section select {
+  width: 100%;
+}
+
+button:hover {
+  background-color: #222;
+}
+
+.music-container {
+  background-image: url("https://images.unsplash.com/photo-1493449869861-318572213467?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 2em;
+}
+
+.submit-button {
+  width: 100%;
+  text-align: center;
+}
